@@ -1,0 +1,552 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Turnstile properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Turnstile />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div>
+        <h1>
+          Turnstile state machine
+        </h1>
+        <h2>
+          Subway fare: $
+          3
+        </h2>
+        <p>
+          Please insert coins to pass
+        </p>
+        <p>
+          Amount of coins inserted: $
+          0
+        </p>
+        <div
+          className="actions"
+        >
+          <p>
+            <button
+              disabled={false}
+              onClick={[Function]}
+            >
+              Insert a coin
+            </button>
+          </p>
+          <p>
+            <button
+              disabled={true}
+              onClick={[Function]}
+            >
+              Walk - pass the turnstile
+            </button>
+          </p>
+        </div>
+        <small>
+          {"locked":true,"message":"Please insert coins to pass","amount":0,"spinning":false,"error":false}
+        </small>
+      </div>,
+      "className": "app",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Turnstile state machine
+          </h1>,
+          <h2>
+            Subway fare: $
+            3
+          </h2>,
+          <p>
+            Please insert coins to pass
+          </p>,
+          <p>
+            Amount of coins inserted: $
+            0
+          </p>,
+          <div
+            className="actions"
+          >
+            <p>
+              <button
+                disabled={false}
+                onClick={[Function]}
+              >
+                Insert a coin
+              </button>
+            </p>
+            <p>
+              <button
+                disabled={true}
+                onClick={[Function]}
+              >
+                Walk - pass the turnstile
+              </button>
+            </p>
+          </div>,
+          false,
+          null,
+          <small>
+            {"locked":true,"message":"Please insert coins to pass","amount":0,"spinning":false,"error":false}
+          </small>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Turnstile state machine",
+          },
+          "ref": null,
+          "rendered": "Turnstile state machine",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Subway fare: $",
+              3,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Subway fare: $",
+            3,
+          ],
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Please insert coins to pass",
+          },
+          "ref": null,
+          "rendered": "Please insert coins to pass",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Amount of coins inserted: $",
+              0,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Amount of coins inserted: $",
+            0,
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p>
+                <button
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  Insert a coin
+                </button>
+              </p>,
+              <p>
+                <button
+                  disabled={true}
+                  onClick={[Function]}
+                >
+                  Walk - pass the turnstile
+                </button>
+              </p>,
+            ],
+            "className": "actions",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <button
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  Insert a coin
+                </button>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Insert a coin",
+                  "disabled": false,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Insert a coin",
+                "type": "button",
+              },
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <button
+                  disabled={true}
+                  onClick={[Function]}
+                >
+                  Walk - pass the turnstile
+                </button>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Walk - pass the turnstile",
+                  "disabled": true,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Walk - pass the turnstile",
+                "type": "button",
+              },
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+        false,
+        null,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "{\\"locked\\":true,\\"message\\":\\"Please insert coins to pass\\",\\"amount\\":0,\\"spinning\\":false,\\"error\\":false}",
+          },
+          "ref": null,
+          "rendered": "{\\"locked\\":true,\\"message\\":\\"Please insert coins to pass\\",\\"amount\\":0,\\"spinning\\":false,\\"error\\":false}",
+          "type": "small",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div>
+          <h1>
+            Turnstile state machine
+          </h1>
+          <h2>
+            Subway fare: $
+            3
+          </h2>
+          <p>
+            Please insert coins to pass
+          </p>
+          <p>
+            Amount of coins inserted: $
+            0
+          </p>
+          <div
+            className="actions"
+          >
+            <p>
+              <button
+                disabled={false}
+                onClick={[Function]}
+              >
+                Insert a coin
+              </button>
+            </p>
+            <p>
+              <button
+                disabled={true}
+                onClick={[Function]}
+              >
+                Walk - pass the turnstile
+              </button>
+            </p>
+          </div>
+          <small>
+            {"locked":true,"message":"Please insert coins to pass","amount":0,"spinning":false,"error":false}
+          </small>
+        </div>,
+        "className": "app",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1>
+              Turnstile state machine
+            </h1>,
+            <h2>
+              Subway fare: $
+              3
+            </h2>,
+            <p>
+              Please insert coins to pass
+            </p>,
+            <p>
+              Amount of coins inserted: $
+              0
+            </p>,
+            <div
+              className="actions"
+            >
+              <p>
+                <button
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  Insert a coin
+                </button>
+              </p>
+              <p>
+                <button
+                  disabled={true}
+                  onClick={[Function]}
+                >
+                  Walk - pass the turnstile
+                </button>
+              </p>
+            </div>,
+            false,
+            null,
+            <small>
+              {"locked":true,"message":"Please insert coins to pass","amount":0,"spinning":false,"error":false}
+            </small>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Turnstile state machine",
+            },
+            "ref": null,
+            "rendered": "Turnstile state machine",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Subway fare: $",
+                3,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Subway fare: $",
+              3,
+            ],
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Please insert coins to pass",
+            },
+            "ref": null,
+            "rendered": "Please insert coins to pass",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Amount of coins inserted: $",
+                0,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Amount of coins inserted: $",
+              0,
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p>
+                  <button
+                    disabled={false}
+                    onClick={[Function]}
+                  >
+                    Insert a coin
+                  </button>
+                </p>,
+                <p>
+                  <button
+                    disabled={true}
+                    onClick={[Function]}
+                  >
+                    Walk - pass the turnstile
+                  </button>
+                </p>,
+              ],
+              "className": "actions",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <button
+                    disabled={false}
+                    onClick={[Function]}
+                  >
+                    Insert a coin
+                  </button>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Insert a coin",
+                    "disabled": false,
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Insert a coin",
+                  "type": "button",
+                },
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <button
+                    disabled={true}
+                    onClick={[Function]}
+                  >
+                    Walk - pass the turnstile
+                  </button>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Walk - pass the turnstile",
+                    "disabled": true,
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Walk - pass the turnstile",
+                  "type": "button",
+                },
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+          false,
+          null,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "{\\"locked\\":true,\\"message\\":\\"Please insert coins to pass\\",\\"amount\\":0,\\"spinning\\":false,\\"error\\":false}",
+            },
+            "ref": null,
+            "rendered": "{\\"locked\\":true,\\"message\\":\\"Please insert coins to pass\\",\\"amount\\":0,\\"spinning\\":false,\\"error\\":false}",
+            "type": "small",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
